@@ -1,0 +1,30 @@
+@use "@styles/palettes.scss" as palettes;
+@use "@styles/breakpoints.scss" as breakpoints;
+
+.toolbar {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  background-color: palettes.$beige;
+  color: palettes.$purple;
+  height: 90px;
+  width: 100%;
+
+  @include breakpoints.respond-to(small) {
+    padding: 0px 40px;
+  }
+
+  @include breakpoints.respond-to(medium) {
+    padding: 0px 40px;
+  }
+
+  @include breakpoints.respond-to(large) {
+    padding: 0px 100px;
+  }
+}

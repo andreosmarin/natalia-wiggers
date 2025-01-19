@@ -1,4 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@use "@angular/material" as mat;
+@use "@styles/palettes.scss" as palettes;
+@use "@styles/typographies.scss" as typographies;
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+$my-primary: mat.m2-define-palette(palettes.$purple-palette, 500, 100, 900);
+$my-accent: mat.m2-define-palette(palettes.$brow-palette, 500, 100, 900);
+$my-warn: mat.m2-define-palette(palettes.$gold-palette);
+$my-background: mat.m2-define-palette(palettes.$gold-palette);
+
+$my-theme: mat.m2-define-light-theme(
+  (
+    color: (
+      primary: $my-primary,
+      accent: $my-accent,
+      warn: $my-warn,
+    ),
+    typography: (
+      plain-family: typographies.$text-font,
+      bold-weight: 900,
+      medium-weight: 500,
+      regular-weight: 300,
+    ),
+    density: 0,
+  )
+);
+
+@include mat.core-theme($my-theme);
+@include mat.all-component-themes($my-theme);
+
+html,
+body {
+  font-family: typographies.$text-font;
+  background-color: mat.m2-get-color-from-palette(palettes.$beige-palette, 500);
+  color: mat.m2-get-color-from-palette(palettes.$purple-palette, 900);
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: typographies.$accent-font;
+  font-weight: bold;
+  color: mat.m2-get-color-from-palette(palettes.$purple-palette, 500);
+}
+
+button,
+p {
+  font-family: typographies.$text-font;
+  font-weight: normal;
+  color: mat.m2-get-color-from-palette(palettes.$purple-palette, 500);
+}

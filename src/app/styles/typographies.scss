@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal italic;
+}
+
+@font-face {
+  font-family: "Ibarra Real Nova";
+  src: url("/fonts/Ibarra_Real_Nova/IbarraRealNova-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal italic;
+}
+$accent-font: "Ibarra Real Nova", sans-serif;
+$text-font: "Josefin Sans", serif;

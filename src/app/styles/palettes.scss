@@ -1,0 +1,106 @@
+@use "sass:color";
+
+$purple: #6f294e;
+$brow: #655440;
+$gold: #b08d57;
+$beige: #e8e6e2;
+
+$purple-palette: (
+  50: color.adjust($purple, $lightness: -45%),
+  100: color.adjust($purple, $lightness: -40%),
+  200: color.adjust($purple, $lightness: -30%),
+  300: color.adjust($purple, $lightness: -20%),
+  400: color.adjust($purple, $lightness: -10%),
+  500: $purple,
+  600: color.adjust($purple, $lightness: 10%),
+  700: color.adjust($purple, $lightness: 20%),
+  800: color.adjust($purple, $lightness: 30%),
+  900: color.adjust($purple, $lightness: 40%),
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);
+
+$brow-palette: (
+  50: color.adjust($brow, $lightness: -45%),
+  100: color.adjust($brow, $lightness: -40%),
+  200: color.adjust($brow, $lightness: -30%),
+  300: color.adjust($brow, $lightness: -20%),
+  400: color.adjust($brow, $lightness: -10%),
+  500: $brow,
+  600: color.adjust($brow, $lightness: 10%),
+  700: color.adjust($brow, $lightness: 20%),
+  800: color.adjust($brow, $lightness: 30%),
+  900: color.adjust($brow, $lightness: 40%),
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);
+
+$gold-palette: (
+  50: color.adjust($gold, $lightness: -45%),
+  100: color.adjust($gold, $lightness: -40%),
+  200: color.adjust($gold, $lightness: -30%),
+  300: color.adjust($gold, $lightness: -20%),
+  400: color.adjust($gold, $lightness: -10%),
+  500: $gold,
+  600: color.adjust($gold, $lightness: 10%),
+  700: color.adjust($gold, $lightness: 20%),
+  800: color.adjust($gold, $lightness: 30%),
+  900: color.adjust($gold, $lightness: 40%),
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);
+
+$beige-palette: (
+  50: color.adjust($beige, $lightness: -45%),
+  100: color.adjust($beige, $lightness: -40%),
+  200: color.adjust($beige, $lightness: -30%),
+  300: color.adjust($beige, $lightness: -20%),
+  400: color.adjust($beige, $lightness: -10%),
+  500: $beige,
+  600: color.adjust($beige, $lightness: 10%),
+  700: color.adjust($beige, $lightness: 20%),
+  800: color.adjust($beige, $lightness: 30%),
+  900: color.adjust($beige, $lightness: 40%),
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);
