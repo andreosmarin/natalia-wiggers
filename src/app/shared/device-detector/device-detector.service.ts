@@ -11,7 +11,7 @@ export class DeviceDetectorService {
 
   constructor(private breakpointObserver: BreakpointObserver) {
     this.breakpointObserver
-      .observe([Breakpoints.Handset, Breakpoints.Small])
+      .observe([Breakpoints.XSmall])
       .subscribe((result) => {
         this.isMobileSubject.next(result.matches);
       });

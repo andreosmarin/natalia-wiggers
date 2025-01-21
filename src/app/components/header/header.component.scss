@@ -1,5 +1,6 @@
 @use "@styles/palettes.scss" as palettes;
 @use "@styles/breakpoints.scss" as breakpoints;
+@use "@styles/variables.scss" as variables;
 
 .toolbar {
   display: flex;
@@ -13,7 +14,7 @@
   margin: 0px;
   background-color: palettes.$beige;
   color: palettes.$purple;
-  height: 90px;
+  height: variables.$toolbar-height;
   width: 100%;
 
   @include breakpoints.respond-to(small) {
@@ -21,7 +22,7 @@
   }
 
   @include breakpoints.respond-to(medium) {
-    padding: 0px 40px;
+    padding: 0px 10px;
   }
 
   @include breakpoints.respond-to(large) {

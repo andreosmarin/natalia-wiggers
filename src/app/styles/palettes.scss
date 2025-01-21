@@ -1,9 +1,12 @@
 @use "sass:color";
 
 $purple: #6f294e;
-$brow: #655440;
+$brown: #655440;
 $gold: #b08d57;
 $beige: #e8e6e2;
+
+$primary: $purple;
+$background: $beige;
 
 $purple-palette: (
   50: color.adjust($purple, $lightness: -45%),
@@ -30,17 +33,17 @@ $purple-palette: (
   ),
 );
 
-$brow-palette: (
-  50: color.adjust($brow, $lightness: -45%),
-  100: color.adjust($brow, $lightness: -40%),
-  200: color.adjust($brow, $lightness: -30%),
-  300: color.adjust($brow, $lightness: -20%),
-  400: color.adjust($brow, $lightness: -10%),
-  500: $brow,
-  600: color.adjust($brow, $lightness: 10%),
-  700: color.adjust($brow, $lightness: 20%),
-  800: color.adjust($brow, $lightness: 30%),
-  900: color.adjust($brow, $lightness: 40%),
+$brown-palette: (
+  50: color.adjust($brown, $lightness: -45%),
+  100: color.adjust($brown, $lightness: -40%),
+  200: color.adjust($brown, $lightness: -30%),
+  300: color.adjust($brown, $lightness: -20%),
+  400: color.adjust($brown, $lightness: -10%),
+  500: $brown,
+  600: color.adjust($brown, $lightness: 10%),
+  700: color.adjust($brown, $lightness: 20%),
+  800: color.adjust($brown, $lightness: 30%),
+  900: color.adjust($brown, $lightness: 40%),
   contrast: (
     50: rgba(black, 0.87),
     100: rgba(black, 0.87),

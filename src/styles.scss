@@ -3,7 +3,7 @@
 @use "@styles/typographies.scss" as typographies;
 
 $my-primary: mat.m2-define-palette(palettes.$purple-palette, 500, 100, 900);
-$my-accent: mat.m2-define-palette(palettes.$brow-palette, 500, 100, 900);
+$my-accent: mat.m2-define-palette(palettes.$brown-palette, 500, 100, 900);
 $my-warn: mat.m2-define-palette(palettes.$gold-palette);
 $my-background: mat.m2-define-palette(palettes.$gold-palette);
 
@@ -32,7 +32,8 @@ body {
   font-family: typographies.$text-font;
   background-color: mat.m2-get-color-from-palette(palettes.$beige-palette, 500);
   color: mat.m2-get-color-from-palette(palettes.$purple-palette, 900);
-  padding: 20px;
+  padding: 0px;
+  margin: 0px;
 }
 
 h1,
@@ -42,8 +43,33 @@ h4,
 h5,
 h6 {
   font-family: typographies.$accent-font;
-  font-weight: bold;
-  color: mat.m2-get-color-from-palette(palettes.$purple-palette, 500);
+  color: mat.m2-get-color-from-palette(palettes.$gold-palette, 500);
+}
+
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 100;
 }
 
 button,

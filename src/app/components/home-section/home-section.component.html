@@ -1,0 +1,51 @@
+@if (isMobile) {
+  <h1>NATÁLIA WIGGERS</h1>
+  <h2>CONSULTORIA DE IMAGEM & ESTILO</h2>
+  <div class="responsive-img">
+    <img
+      ngSrc="/home.png"
+      routerLink=""
+      fragment="home"
+      alt="Natália Logo"
+      priority
+      fill
+    />
+
+    <div class="center">
+      <button mat-flat-button color="primary" routerLink="" fragment="services">
+        MEUS SERVIÇOS
+      </button>
+    </div>
+  </div>
+}
+
+@if (!isMobile) {
+  <div class="responsive-img">
+    <img
+      ngSrc="/home.png"
+      routerLink=""
+      fragment="home"
+      alt="Natália Logo"
+      priority
+      fill
+    />
+  </div>
+  <div class="texts">
+    <div class="title">
+      <h1>NATÁLIA WIGGERS</h1>
+      <h2>CONSULTORIA DE IMAGEM & ESTILO</h2>
+    </div>
+    <div class="quote">
+      <h3>
+        VISTA SUA ESSÊNCIA, <br />
+        PORQUE ESTILO É SER VOCÊ
+      </h3>
+    </div>
+
+    <div class="button">
+      <button mat-flat-button color="primary" routerLink="" fragment="services">
+        MEUS SERVIÇOS
+      </button>
+    </div>
+  </div>
+}

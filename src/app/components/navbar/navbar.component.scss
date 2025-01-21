@@ -1,3 +1,15 @@
+@use "@styles/palettes.scss" as palettes;
+@use "@styles/breakpoints.scss" as breakpoints;
+
 .nav-links {
   margin: 0px 20px;
+
+  @include breakpoints.respond-to(medium) {
+    margin: 0px;
+    font-size: 14px;
+  }
+}
+
+button[color="primary"] {
+  color: palettes.$primary;
 }

@@ -1,3 +1,5 @@
+@use "@styles/variables.scss" as variables;
+
 .main-container section {
-  padding: 90px 0px;
+  padding: variables.$toolbar-height 0px 0px 0px;
 }

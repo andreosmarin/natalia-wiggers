@@ -33,7 +33,8 @@
               "src/styles.scss",
               "src/app/styles/palettes.scss",
               "src/app/styles/breakpoints.scss",
-              "src/app/styles/typographies.scss"
+              "src/app/styles/typographies.scss",
+              "src/app/styles/variables.scss"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -97,7 +98,8 @@
               "src/styles.scss",
               "src/app/styles/palettes.scss",
               "src/app/styles/breakpoints.scss",
-              "src/app/styles/typographies.scss"
+              "src/app/styles/typographies.scss",
+              "src/app/styles/variables.scss"
             ],
             "scripts": []
           }

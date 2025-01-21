@@ -1,57 +1,58 @@
-<ng-container>
-  <nav>
-    @if (isMobile) {
-      <button
-        mat-icon-button
-        color="primary"
-        [matMenuTriggerFor]="menu"
-        aria-label="Menu"
-      >
-        <mat-icon>drag_handle</mat-icon>
-      </button>
-      <mat-menu #menu="matMenu">
-        @for (item of items; track item.label) {
-          <button mat-menu-item [routerLink]="''" [fragment]="item.fragment">
-            {{ item.label }}
-          </button>
-        }
-      </mat-menu>
-    } @else {
-      <ng-container>
-        @for (item of items; track item.label) {
-          <a
-            mat-button
-            color="primary"
-            class="nav-links"
-            [routerLink]="''"
-            [fragment]="item.fragment"
-            >{{ item.label }}</a
-          >
-        }
-      </ng-container>
-
-      <button
+<nav>
+  @if (isMobile) {
+    <button
+      mat-icon-button
+      color="primary"
+      [matMenuTriggerFor]="menu"
+      aria-label="Menu"
+    >
+      <mat-icon>drag_handle</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      @for (item of items; track item.label) {
+        <button
+          mat-menu-item
+          color="primary"
+          [routerLink]="''"
+          [fragment]="item.fragment"
+        >
+          {{ item.label }}
+        </button>
+      }
+    </mat-menu>
+  } @else {
+    @for (item of items; track item.label) {
+      <a
         mat-button
         color="primary"
-        [matMenuTriggerFor]="menuLanguage"
-        aria-label="Language Menu"
+        class="nav-links"
+        [routerLink]="''"
+        [fragment]="item.fragment"
+        >{{ item.label }}</a
       >
-        <mat-icon>language</mat-icon>
-        {{ languageSystem }}
-        <mat-icon iconPositionEnd>keyboard_arrow_down</mat-icon>
-      </button>
-
-      <mat-menu #menuLanguage="matMenu">
-        @for (language of languages; track language) {
-          <button
-            mat-menu-item
-            color="primary"
-            (click)="changeLanguage(language)"
-          >
-            {{ language }}
-          </button>
-        }
-      </mat-menu>
     }
-  </nav>
-</ng-container>
+
+    <button
+      mat-button
+      color="primary"
+      [matMenuTriggerFor]="menuLanguage"
+      aria-label="Language Menu"
+    >
+      <mat-icon>language</mat-icon>
+      {{ languageSystem }}
+      <mat-icon iconPositionEnd>keyboard_arrow_down</mat-icon>
+    </button>
+
+    <mat-menu #menuLanguage="matMenu">
+      @for (language of languages; track language) {
+        <button
+          mat-menu-item
+          color="primary"
+          (click)="changeLanguage(language)"
+        >
+          {{ language }}
+        </button>
+      }
+    </mat-menu>
+  }
+</nav>
