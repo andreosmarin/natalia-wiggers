@@ -1,7 +1,6 @@
 @font-face {
-  font-family: "Josefin Sans";
-  src: url("/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf")
-    format("truetype");
+  font-family: "Jura";
+  src: url("/fonts/Jura/Jura-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal italic;
 }
@@ -14,4 +13,4 @@
   font-style: normal italic;
 }
 $accent-font: "Ibarra Real Nova", sans-serif;
-$text-font: "Josefin Sans", serif;
+$text-font: "Jura", serif;

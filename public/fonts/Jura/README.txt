@@ -1,32 +1,22 @@
-Josefin Sans Variable Font
-==========================
+Jura Variable Font
+==================
 
-This download contains Josefin Sans as both variable fonts and static fonts.
+This download contains Jura as both a variable font and static fonts.
 
-Josefin Sans is a variable font with this axis:
+Jura is a variable font with this axis:
   wght
 
-This means all the styles are contained in these files:
-  Josefin_Sans/JosefinSans-VariableFont_wght.ttf
-  Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf
+This means all the styles are contained in a single file:
+  Jura/Jura-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Josefin Sans:
-  Josefin_Sans/static/JosefinSans-Thin.ttf
-  Josefin_Sans/static/JosefinSans-ExtraLight.ttf
-  Josefin_Sans/static/JosefinSans-Light.ttf
-  Josefin_Sans/static/JosefinSans-Regular.ttf
-  Josefin_Sans/static/JosefinSans-Medium.ttf
-  Josefin_Sans/static/JosefinSans-SemiBold.ttf
-  Josefin_Sans/static/JosefinSans-Bold.ttf
-  Josefin_Sans/static/JosefinSans-ThinItalic.ttf
-  Josefin_Sans/static/JosefinSans-ExtraLightItalic.ttf
-  Josefin_Sans/static/JosefinSans-LightItalic.ttf
-  Josefin_Sans/static/JosefinSans-Italic.ttf
-  Josefin_Sans/static/JosefinSans-MediumItalic.ttf
-  Josefin_Sans/static/JosefinSans-SemiBoldItalic.ttf
-  Josefin_Sans/static/JosefinSans-BoldItalic.ttf
+in those cases you can use the static font files for Jura:
+  Jura/static/Jura-Light.ttf
+  Jura/static/Jura-Regular.ttf
+  Jura/static/Jura-Medium.ttf
+  Jura/static/Jura-SemiBold.ttf
+  Jura/static/Jura-Bold.ttf
 
 Get started
 -----------
