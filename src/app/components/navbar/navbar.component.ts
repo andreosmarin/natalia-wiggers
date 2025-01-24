@@ -13,7 +13,7 @@ import { DeviceDetectorService } from '@shared/device-detector/device-detector.s
 })
 export class NavbarComponent implements OnInit {
   items = [
-    { label: 'SOBRE MIM', link: '', fragment: 'home' },
+    { label: 'SOBRE MIM', link: '', fragment: 'about' },
     { label: 'SERVIÇOS', link: '', fragment: 'services' },
     { label: 'DEPOIMENTOS', link: '', fragment: 'testimonials' },
     { label: 'CONTATO', link: '', fragment: 'contact' },

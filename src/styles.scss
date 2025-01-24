@@ -1,11 +1,24 @@
 @use "@angular/material" as mat;
+@use "sass:color";
 @use "@styles/palettes.scss" as palettes;
 @use "@styles/typographies.scss" as typographies;
+@use "@styles/variables.scss" as variables;
 
 @use "bootstrap/scss/bootstrap" with (
   $primary: palettes.$purple,
   $secondary: palettes.$gold
 );
+
+$primary-light: color.scale(palettes.$purple, $alpha: -10%);
+$text-light: color.scale(palettes.$beige, $alpha: -10%);
+
+.bg-primary-light {
+  background-color: $primary-light;
+}
+
+.text-light {
+  color: $primary-light;
+}
 
 $my-primary: mat.m2-define-palette(palettes.$purple-palette, 500, 100, 900);
 $my-accent: mat.m2-define-palette(palettes.$brown-palette, 500, 100, 900);
@@ -39,6 +52,10 @@ body {
   color: mat.m2-get-color-from-palette(palettes.$purple-palette, 900);
   padding: 0px;
   margin: 0px;
+}
+
+body {
+  padding-top: variables.$toolbar-height;
 }
 
 h1,
@@ -81,5 +98,6 @@ button,
 p {
   font-family: typographies.$text-font;
   font-weight: normal;
+  font-size: 20px;
   color: mat.m2-get-color-from-palette(palettes.$purple-palette, 500);
 }

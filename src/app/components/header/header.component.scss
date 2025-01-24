@@ -5,27 +5,27 @@
 .toolbar {
   display: flex;
   position: fixed;
-  z-index: 1000;
   top: 0;
-  left: 0;
+  z-index: 1000;
   grid-template-columns: auto auto;
   justify-content: space-between;
   align-items: center;
-  margin: 0px;
+  margin: 0;
   background-color: palettes.$beige;
   color: palettes.$purple;
   height: variables.$toolbar-height;
   width: 100%;
+  padding: 0;
 
   @include breakpoints.respond-to(small) {
-    padding: 0px 40px;
+    padding: 0 40px;
   }
 
   @include breakpoints.respond-to(medium) {
-    padding: 0px 10px;
+    padding: 0 10px;
   }
 
   @include breakpoints.respond-to(large) {
-    padding: 0px 100px;
+    padding: 0 100px;
   }
 }
