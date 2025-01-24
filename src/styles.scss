@@ -2,6 +2,11 @@
 @use "@styles/palettes.scss" as palettes;
 @use "@styles/typographies.scss" as typographies;
 
+@use "bootstrap/scss/bootstrap" with (
+  $primary: palettes.$purple,
+  $secondary: palettes.$gold
+);
+
 $my-primary: mat.m2-define-palette(palettes.$purple-palette, 500, 100, 900);
 $my-accent: mat.m2-define-palette(palettes.$brown-palette, 500, 100, 900);
 $my-warn: mat.m2-define-palette(palettes.$gold-palette);

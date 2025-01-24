@@ -1,51 +1,83 @@
-@if (isMobile) {
-  <h1>NATÁLIA WIGGERS</h1>
-  <h2>CONSULTORIA DE IMAGEM & ESTILO</h2>
-  <div class="responsive-img">
-    <img
-      ngSrc="/home.png"
-      routerLink=""
-      fragment="home"
-      alt="Natália Logo"
-      priority
-      fill
-    />
-
-    <div class="center">
-      <button mat-flat-button color="primary" routerLink="" fragment="services">
-        MEUS SERVIÇOS
-      </button>
-    </div>
-  </div>
-}
-
-@if (!isMobile) {
-  <div class="responsive-img">
-    <img
-      ngSrc="/home.png"
-      routerLink=""
-      fragment="home"
-      alt="Natália Logo"
-      priority
-      fill
-    />
-  </div>
-  <div class="texts">
-    <div class="title">
-      <h1>NATÁLIA WIGGERS</h1>
-      <h2>CONSULTORIA DE IMAGEM & ESTILO</h2>
-    </div>
-    <div class="quote">
-      <h3>
-        VISTA SUA ESSÊNCIA, <br />
-        PORQUE ESTILO É SER VOCÊ
-      </h3>
+<section class="container-fluid text-center">
+  <div class="row align-items-center">
+    <div class="col d-none d-md-block">
+      <img
+        ngSrc="/home.png"
+        routerLink=""
+        fragment="home"
+        alt="Natália Logo"
+        priority
+        class="img-fluid"
+        width="713"
+        height="838"
+      />
     </div>
 
-    <div class="button">
-      <button mat-flat-button color="primary" routerLink="" fragment="services">
-        MEUS SERVIÇOS
-      </button>
+    <article class="col h-100 d-flex flex-column g-5">
+      <header class="text-center mb-4 d-none d-md-block">
+        <h1 class="fs-3 fw-bold">NATÁLIA WIGGERS</h1>
+        <h2 class="fs-5 fw-light mb-5">CONSULTORIA DE IMAGEM & ESTILO</h2>
+      </header>
+
+      <div class="text-center m-5 d-none d-md-block">
+        <p class="fs-5 text-secondary">
+          VISTA SUA ESSÊNCIA, <br />
+          PORQUE ESTILO É SER VOCÊ
+        </p>
+      </div>
+
+      <footer class="d-flex justify-content-end d-none d-md-flex w-auto">
+        <button
+          type="button"
+          color="primary"
+          routerLink=""
+          fragment="services"
+          class="btn btn-primary btn-lg m-5"
+        >
+          MEUS SERVIÇOS
+        </button>
+      </footer>
+    </article>
+
+    <div class="col-12 d-block d-md-none position-relative">
+      <header class="text-center mb-4">
+        <h1 class="fs-3 fw-bold">NATÁLIA WIGGERS</h1>
+        <h2 class="fs-5 fw-light mb-5">CONSULTORIA DE IMAGEM & ESTILO</h2>
+      </header>
+
+      <div class="text-center m-5">
+        <p class="fs-5 text-secondary">
+          VISTA SUA ESSÊNCIA, <br />
+          PORQUE ESTILO É SER VOCÊ
+        </p>
+      </div>
+
+      <div class="position-relative">
+        <img
+          ngSrc="/home.png"
+          routerLink=""
+          fragment="home"
+          alt="Natália Logo"
+          priority
+          class="img-fluid"
+          width="713"
+          height="838"
+        />
+
+        <footer
+          class="d-flex justify-content-center position-absolute bottom-0 start-50 translate-middle-x mb-3"
+        >
+          <button
+            type="button"
+            color="primary"
+            routerLink=""
+            fragment="services"
+            class="btn btn-primary btn-lg"
+          >
+            MEUS SERVIÇOS
+          </button>
+        </footer>
+      </div>
     </div>
   </div>
-}
+</section>
