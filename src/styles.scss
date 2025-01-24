@@ -54,6 +54,10 @@ body {
   margin: 0px;
 }
 
+html {
+  scroll-padding-top: variables.$toolbar-height;
+}
+
 body {
   padding-top: variables.$toolbar-height;
 }
