@@ -4,6 +4,7 @@ import { ActivatedRoute, RouterOutlet } from '@angular/router';
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeSectionComponent } from './components/home-section/home-section.component';
+import { ServicesSectionComponent } from './components/services-section/services-section.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { HomeSectionComponent } from './components/home-section/home-section.com
     HeaderComponent,
     HomeSectionComponent,
     AboutSectionComponent,
+    ServicesSectionComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

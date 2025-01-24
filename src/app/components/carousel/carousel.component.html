@@ -1,0 +1,67 @@
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicadores -->
+  <div class="carousel-indicators">
+    <button
+      *ngFor="let item of itemsCarousel; let i = index"
+      type="button"
+      [attr.data-bs-target]="'#demo'"
+      [attr.data-bs-slide-to]="i"
+      [class.active]="i === 0"
+    ></button>
+  </div>
+
+  <div class="carousel-inner">
+    @for (item of itemsCarousel; track item.title) {
+      <mat-card class="example-card" appearance="outlined">
+        <img mat-card-image [src]="item.image" alt="Photo of a Shiba Inu" />
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz
+            breeds of dog from Japan. A small, agile dog that copes very well
+            with mountainous terrain, the Shiba Inu was originally bred for
+            hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>LIKE</button>
+          <button mat-button>SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+    }
+    <div
+      *ngFor="let item of itemsCarousel; let i = index"
+      class="carousel-item"
+      [ngClass]="{ active: i === 0 }"
+    >
+      <img
+        [src]="item.image"
+        [alt]="item.title"
+        class="d-block w-100"
+        style="width: 100%; max-height: 400px; object-fit: cover"
+      />
+      <div class="carousel-caption">
+        <h3>{{ item.title }}</h3>
+        <p class="text-light">{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#demo"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#demo"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
