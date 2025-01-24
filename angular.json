@@ -30,13 +30,16 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss",
               "src/app/styles/palettes.scss",
               "src/app/styles/breakpoints.scss",
               "src/app/styles/typographies.scss",
               "src/app/styles/variables.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -95,13 +98,16 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss",
               "src/app/styles/palettes.scss",
               "src/app/styles/breakpoints.scss",
               "src/app/styles/typographies.scss",
               "src/app/styles/variables.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           }
         },
         "lint": {

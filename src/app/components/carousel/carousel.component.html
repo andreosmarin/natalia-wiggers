@@ -1,0 +1,55 @@
+<div id="carousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    @for (item of items(); track item.title; let idx = $index) {
+      <button
+        type="button"
+        data-bs-target="#carousel"
+        [attr.data-bs-slide-to]="idx.toString()"
+        [class.active]="item.active"
+        [attr.aria-current]="item.active ? 'true' : null"
+        [attr.aria-label]="item.title"
+      ></button>
+    }
+  </div>
+
+  <div class="carousel-inner rounded">
+    @for (item of items(); track item.title) {
+      <div class="carousel-item" [class.active]="item.active">
+        <img
+          [src]="item.image"
+          class="d-block w-100"
+          style="height: 40vh; object-fit: cover"
+          [alt]="item.title"
+        />
+        <div
+          class="carousel-caption rounded"
+          style="background-color: rgba(111, 41, 78, 0.85)"
+        >
+          <h5 class="fw-bold text-secondary-light text-shadow">
+            {{ item.title }}
+          </h5>
+          <p class="text-secondary-light text-shadow">{{ item.description }}</p>
+        </div>
+      </div>
+    }
+  </div>
+
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carousel"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carousel"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
