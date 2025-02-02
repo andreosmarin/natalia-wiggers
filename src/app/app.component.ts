@@ -5,6 +5,7 @@ import { AboutSectionComponent } from './components/about-section/about-section.
 import { HeaderComponent } from './components/header/header.component';
 import { HomeSectionComponent } from './components/home-section/home-section.component';
 import { ServicesSectionComponent } from './components/services-section/services-section.component';
+import { TestimonialsSectionComponent } from './components/testimonials-section/testimonials-section.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { ServicesSectionComponent } from './components/services-section/services
     HomeSectionComponent,
     AboutSectionComponent,
     ServicesSectionComponent,
+    TestimonialsSectionComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

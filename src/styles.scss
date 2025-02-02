@@ -6,7 +6,8 @@
 
 @use "bootstrap/scss/bootstrap" with (
   $primary: palettes.$purple,
-  $secondary: palettes.$gold
+  $secondary: palettes.$gold,
+  $body-bg: palettes.$beige
 );
 
 $primary-light: color.scale(palettes.$purple, $alpha: -10%);
@@ -27,6 +28,14 @@ $text-secondary-dark: color.scale(palettes.$gold, $alpha: -10%);
 
 .text-secondary-dark {
   color: $text-secondary-dark;
+}
+
+.color-dark {
+  color: palettes.$brown;
+}
+
+.color-highlight {
+  color: palettes.$gold;
 }
 
 $my-primary: mat.m2-define-palette(palettes.$purple-palette, 500, 100, 900);
