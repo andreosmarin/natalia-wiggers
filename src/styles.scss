@@ -7,7 +7,8 @@
 @use "bootstrap/scss/bootstrap" with (
   $primary: palettes.$purple,
   $secondary: palettes.$gold,
-  $body-bg: palettes.$beige
+  $body-bg: palettes.$beige,
+  $font-family-base: typographies.$accent-font
 );
 
 $primary-light: color.scale(palettes.$purple, $alpha: -10%);
@@ -36,6 +37,13 @@ $text-secondary-dark: color.scale(palettes.$gold, $alpha: -10%);
 
 .color-highlight {
   color: palettes.$gold;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 $my-primary: mat.m2-define-palette(palettes.$purple-palette, 500, 100, 900);
@@ -80,6 +88,8 @@ body {
   padding-top: variables.$toolbar-height;
 }
 
+.accent-font,
+a,
 h1,
 h2,
 h3,
