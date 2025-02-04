@@ -2,10 +2,11 @@
   <div class="row align-items-center">
     <div class="col d-none d-md-block">
       <img
-        ngSrc="/home-natalia-wiggers.png"
+        ngSrc="home-natalia-wiggers.png"
         routerLink=""
         fragment="home"
-        alt="Natália Logo"
+        i18n-alt
+        alt="Natalia Wiggers Logo"
         priority
         class="img-fluid"
         width="495"
@@ -15,67 +16,75 @@
 
     <article class="col h-100 d-flex flex-column g-5">
       <header class="text-center mb-4 d-none d-md-block">
-        <h1 class="fs-3 fw-bold">NATÁLIA WIGGERS</h1>
-        <h2 class="fs-5 fw-light mb-5">CONSULTORIA DE IMAGEM & ESTILO</h2>
+        <h1 class="fs-3 fw-bold text-uppercase">Natália Wiggers</h1>
+        <h2 i18n class="fs-5 fw-light mb-5 text-uppercase">
+          Image & Style Consulting
+        </h2>
       </header>
 
       <div class="text-center m-5 d-none d-md-block">
-        <p class="fs-5 text-secondary">
-          VISTA SUA ESSÊNCIA, <br />
-          PORQUE ESTILO É SER VOCÊ
+        <p i18n class="fs-5 text-secondary text-uppercase">
+          Dress your essence, <br />
+          because style is being you.
         </p>
       </div>
 
       <footer class="d-flex justify-content-center d-none d-md-flex w-auto">
         <button
+          i18n
           type="button"
           color="primary"
           routerLink=""
           fragment="services"
           (click)="onNavigateToFragment('services')"
-          class="btn btn-primary btn-lg m-5"
+          class="btn btn-primary btn-lg m-5 text-uppercase"
         >
-          MEUS SERVIÇOS
+          My services
         </button>
       </footer>
     </article>
 
     <div class="col-12 d-block d-md-none position-relative">
-      <header class="text-center mb-4">
-        <h1 class="fs-3 fw-bold">NATÁLIA WIGGERS</h1>
-        <h2 class="fs-5 fw-light mb-5">CONSULTORIA DE IMAGEM & ESTILO</h2>
+      <header class="text-center">
+        <h1 class="fs-3 fw-bold text-uppercase">Natália Wiggers</h1>
+        <h2 i18n class="fs-5 fw-light mb-5 text-uppercase">
+          Image & Style Consulting
+        </h2>
       </header>
 
-      <div class="text-center m-5">
-        <p class="fs-5 text-secondary">
-          VISTA SUA ESSÊNCIA, <br />
-          PORQUE ESTILO É SER VOCÊ
+      <div class="text-center">
+        <p i18n class="fs-5 text-secondary text-uppercase">
+          Dress your essence, <br />
+          because style is being you.
         </p>
       </div>
 
       <div class="position-relative">
         <img
-          ngSrc="/home-natalia-wiggers.png"
+          ngSrc="home-natalia-wiggers.png"
           routerLink=""
           fragment="home"
+          i18n-alt
           alt="Natália Logo"
           priority
           class="img-fluid"
-          width="495"
-          height="563"
+          width="350"
+          height="398"
         />
 
         <footer
           class="d-flex justify-content-center position-absolute bottom-0 start-50 translate-middle-x mb-3"
         >
           <button
+            i18n
             type="button"
             color="primary"
             routerLink=""
             fragment="services"
-            class="btn btn-primary btn-lg"
+            (click)="onNavigateToFragment('services')"
+            class="btn btn-primary btn-lg text-uppercase"
           >
-            MEUS SERVIÇOS
+            My services
           </button>
         </footer>
       </div>

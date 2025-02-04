@@ -12,23 +12,20 @@ import { CarouselItem } from '../carousel/carousel.interface';
 export class ServicesSectionComponent {
   services: CarouselItem[] = [
     {
-      title: 'COLORAÇÃO PESSOAL',
-      description:
-        'Descubra as cores que realçam sua beleza natural e valorizam sua imagem.',
-      image: 'service-coloracao-pessoal.jpg',
+      title: $localize`Personal Coloring`,
+      description: $localize`Discover the colors that enhance your natural beauty and elevate your image.`,
+      image: 'service-personal-coloring.jpg',
       active: true,
     },
     {
-      title: 'CLOSET DETOX',
-      description:
-        'Renove seu guarda-roupa eliminando peças que não combinam com seu estilo e valorizando as que realmente fazem sentido para você.',
+      title: $localize`Closet Detox`,
+      description: $localize`Refresh your wardrobe by removing pieces that don't match your style and highlighting those that truly make sense for you.`,
       image: 'service-closet-detox.jpg',
       active: false,
     },
     {
-      title: 'PERSONAL SHOPPER',
-      description:
-        'Tenha a experiência de compras personalizada, com escolhas que refletem seu estilo, necessidades e objetivos.',
+      title: $localize`Personal Shopper`,
+      description: $localize`Enjoy a personalized shopping experience with choices that reflect your style, needs, and goals.`,
       image: 'service-personal-shopper.jpg',
       active: false,
     },

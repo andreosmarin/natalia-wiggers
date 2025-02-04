@@ -1,5 +1,7 @@
 <section class="container-fluid text-center p-5 m-0 background-img">
-  <h2 class="fw-bold text-secondary-light pb-3">ELAS E SUAS NOVAS VERSÕES</h2>
+  <h2 i18n class="fw-bold text-secondary-light pb-3 text-uppercase">
+    They and their new versions
+  </h2>
 
   <div class="row g-4">
     @for (testimonial of testimonials; track testimonial.name) {
@@ -26,10 +28,11 @@
               }
             </div>
             <div class="mt-3">
-              <span class="card-text d-block pt-3 color-dark fw-bold">{{
-                testimonial.name
-              }}</span>
-              <span class="card-text d-block color-dark">{{
+              <span
+                class="card-text d-block pt-3 color-dark fw-bold text-uppercase"
+                >{{ testimonial.name }}</span
+              >
+              <span class="card-text d-block color-dark text-uppercase">{{
                 testimonial.occupation
               }}</span>
             </div>

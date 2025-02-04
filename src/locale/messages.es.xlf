@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2480007721916026133" datatype="html">
+        <source>Natália Wiggers | Image &amp; Style Consulting</source>
+        <target>Natália Wiggers | Consultoría de Imagen y Estilo</target>
+      </trans-unit>
+      <trans-unit id="3562199946446423606" datatype="html">
+        <source>About me</source>
+        <target>Sobre mí</target>
+      </trans-unit>
+      <trans-unit id="5056042089208991876" datatype="html">
+        <source>Image by Natália Wiggers, image and style consultant</source>
+        <target>Imagen de Natália Wiggers, consultora de imagen y estilo</target>
+      </trans-unit>
+      <trans-unit id="5573521891741907372" datatype="html">
+        <source>Hi</source>
+        <target>Hola</target>
+      </trans-unit>
+      <trans-unit id="3467568788912517643" datatype="html">
+        <source> I am an image and style consultant, trained in Fashion Design, and my passion is helping people connect with their essence and translate it into an authentic style. I believe that each person is unique and that the way they dress can be a powerful tool to express who they truly are. </source>
+        <target>Soy consultora de imagen y estilo, formada en Diseño de Moda, y mi pasión es ayudar a las personas a conectar con su esencia y traducirla en un estilo auténtico. Creo que cada persona es única y que la forma en que se viste puede ser una herramienta poderosa para expresar quién realmente es.</target>
+      </trans-unit>
+      <trans-unit id="3951935191950605405" datatype="html">
+        <source>My mission</source>
+        <target>Mi misión</target>
+      </trans-unit>
+      <trans-unit id="2814233268272791199" datatype="html">
+        <source> My mission is to promote your self-esteem and well-being by valuing your body, personality, and story. I want to help you look at yourself in the mirror with pride and feel confident to face the world. My goal is to reveal your worth and create a style that reflects your best version, in a light and authentic way. Together, we will build an image that tells your story and makes you feel amazing at any moment in your life. </source>
+        <target>Mi misión es promover tu autoestima y bienestar valorando tu cuerpo, personalidad e historia. Quiero ayudarte a mirarte al espejo con orgullo y sentirte seguro para enfrentar el mundo. Mi objetivo es revelar tu valor y crear un estilo que refleje tu mejor versión, de una manera ligera y auténtica. Juntos, construiremos una imagen que cuente tu historia y te haga sentir increíble en cualquier momento de tu vida.</target>
+      </trans-unit>
+      <trans-unit id="1805506778275601584" datatype="html">
+        <source>Values</source>
+        <target>Valores</target>
+      </trans-unit>
+      <trans-unit id="2057666884781843333" datatype="html">
+        <source> Ethics, respect, authenticity, trust, empathy, valuing individuality, and commitment to transformation. </source>
+        <target>Ética, respeto, autenticidad, confianza, empatía, valoración de la individualidad y compromiso con la transformación.</target>
+      </trans-unit>
+      <trans-unit id="3900425463855019410" datatype="html">
+        <source>Logo of Natália Wiggers Image and Style Consulting</source>
+        <target>Logo de Natália Wiggers Consultoría de Imagen y Estilo</target>
+      </trans-unit>
+      <trans-unit id="6018686961415145811" datatype="html">
+        <source>About Me</source>
+        <target>Sobre Mí</target>
+      </trans-unit>
+      <trans-unit id="7143579180750436311" datatype="html">
+        <source>Services</source>
+        <target>Servicios</target>
+      </trans-unit>
+      <trans-unit id="5669462994581337154" datatype="html">
+        <source>Contact Me</source>
+        <target>Contáctame</target>
+      </trans-unit>
+      <trans-unit id="5929565432656080828" datatype="html">
+        <source>Telephone: </source>
+        <target>Teléfono: </target>
+      </trans-unit>
+      <trans-unit id="4071222469431073252" datatype="html">
+        <source>Location: </source>
+        <target>Ubicación: </target>
+      </trans-unit>
+      <trans-unit id="3735025552830334649" datatype="html">
+        <source>Natalia Wiggers Logo</source>
+        <target>Logo de Natalia Wiggers</target>
+      </trans-unit>
+      <trans-unit id="2455187771464915745" datatype="html">
+        <source>Natália Wiggers</source>
+        <target>Natália Wiggers</target>
+      </trans-unit>
+      <trans-unit id="2123642644024850899" datatype="html">
+        <source> Image &amp; Style Consulting </source>
+        <target> Consultoría de Imagen y Estilo </target>
+      </trans-unit>
+      <trans-unit id="8464417311892003856" datatype="html">
+        <source> Dress your essence, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> because style is being you. </source>
+        <target> Viste tu esencia, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> porque el estilo es ser tú. </target>
+      </trans-unit>
+      <trans-unit id="5827334791896421756" datatype="html">
+        <source> My services </source>
+        <target> Mis servicios </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -8,7 +8,7 @@
       class="btn text- align-content-center justify-content-center"
     >
       <mat-icon>language</mat-icon>
-      {{ languageSystem }}
+      {{ languageSystem() }}
       <mat-icon iconPositionEnd>keyboard_arrow_down</mat-icon>
     </button>
     <button
@@ -51,18 +51,33 @@
       color="primary"
       [matMenuTriggerFor]="menuLanguage"
       aria-label="Language Menu"
+      class="text-uppercase"
     >
       <mat-icon>language</mat-icon>
-      {{ languageSystem }}
+      {{ languageSystem() }}
       <mat-icon iconPositionEnd>keyboard_arrow_down</mat-icon>
     </button>
   }
 
   <mat-menu #menuLanguage="matMenu">
     @for (language of languages; track language) {
-      <button mat-menu-item color="primary" (click)="changeLanguage(language)">
-        {{ language }}
-      </button>
+      <a
+        class="btn text-primary d-flex align-items-center gap-5 text-uppercase"
+        [href]="'/' + language.id"
+        mat-menu-item
+        color="primary"
+        (click)="changeLanguage(language)"
+      >
+        <img
+          i18n
+          class="img-fluid me-2 mb-1"
+          [ngSrc]="language.flagSvg"
+          [alt]="language.label"
+          width="20"
+          height="20"
+        />
+        {{ language.label }}
+      </a>
     }
   </mat-menu>
 </nav>

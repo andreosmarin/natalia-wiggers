@@ -11,22 +11,19 @@ import { Testimonial } from './testimonials-section.interface';
 export class TestimonialsSectionComponent {
   testimonials: Testimonial[] = [
     {
-      name: 'KARINA',
-      description:
-        'Amei o atendimento, fiquei surpresa em como uma cor muda a minha imagem.',
-      occupation: 'EMPRESÁRIA',
+      name: 'Karina',
+      description: $localize`I loved the service, I was surprised by how a color changes my image.`,
+      occupation: $localize`Businesswoman`,
     },
     {
-      name: 'DANIELA',
-      description:
-        'A Natália fez eu me reconectar comigo mesma, sinto diferença em casa e no trabalho.',
-      occupation: 'GERENTE COMERCIAL',
+      name: 'Daniela',
+      description: $localize`Natália helped me reconnect with myself, I feel the difference at home and at work.`,
+      occupation: $localize`Commercial Manager`,
     },
     {
-      name: 'LÍGIA',
-      description:
-        'Como profissional, a minha imagem é importante, e conseguimos elevar o meu nível a outro patamar, estou realizada.',
-      occupation: 'EXECUTIVA',
+      name: 'Lígia',
+      description: $localize`As a professional, my image is important, and we managed to elevate my level to another level, I am fulfilled.`,
+      occupation: $localize`Executive`,
     },
   ];
 }

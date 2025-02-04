@@ -4,7 +4,8 @@
       <img
         ngSrc="logo-natalia-wiggers.png"
         class="img-fluid"
-        alt="Logo da Natália Wiggers Consultoria de Imagem e Estilo"
+        i18n-alt
+        alt="Logo of Natália Wiggers Image and Style Consulting"
         width="300"
         height="100"
       />
@@ -27,32 +28,34 @@
       <div class="row align-items-center">
         <nav class="d-flex justify-content-center gap-5">
           <a
+            i18n
             class="link-secondary fs-4 d-flex text-decoration-none"
             routerLink=""
             fragment="about"
             (click)="onNavigateToFragment('about')"
-            >Sobre Mim</a
+            >About Me</a
           >
           <a
+            i18n
             class="link-secondary fs-4 d-flex text-decoration-none"
             routerLink=""
             fragment="services"
             (click)="onNavigateToFragment('services')"
-            >Serviços</a
+            >Services</a
           >
         </nav>
       </div>
     </div>
 
     <div class="col-sm-12 col-lg-4">
-      <h2 class="fs-4">Entre em Contato</h2>
-      <h3 class="fs-4"><strong>Telefone: </strong>(44) 9 9913-2622</h3>
+      <h2 i18n class="fs-4">Contact Me</h2>
+      <h3 class="fs-4"><strong i18n>Telephone: </strong>(44) 9 9913-2622</h3>
     </div>
   </div>
 
   <div class="row align-items-center">
     <p class="accent-font fs-4">
-      <strong>Local:</strong> Av. Paraná, 3074 - Alto Paraná, PR
+      <strong i18n>Location: </strong>Av. Paraná, 3074 - Alto Paraná, PR
     </p>
   </div>
 </section>
