@@ -1,10 +1,22 @@
-<nav>
+<nav class="nav-links align-items-center justify-content-center">
   @if (isMobile) {
+    <button
+      mat-button
+      color="primary"
+      [matMenuTriggerFor]="menuLanguage"
+      aria-label="Language Menu"
+      class="btn text- align-content-center justify-content-center"
+    >
+      <mat-icon>language</mat-icon>
+      {{ languageSystem }}
+      <mat-icon iconPositionEnd>keyboard_arrow_down</mat-icon>
+    </button>
     <button
       mat-icon-button
       color="primary"
       [matMenuTriggerFor]="menu"
       aria-label="Menu"
+      class="btn align-content-center justify-content-center"
     >
       <mat-icon>drag_handle</mat-icon>
     </button>
@@ -42,17 +54,13 @@
       {{ languageSystem }}
       <mat-icon iconPositionEnd>keyboard_arrow_down</mat-icon>
     </button>
-
-    <mat-menu #menuLanguage="matMenu">
-      @for (language of languages; track language) {
-        <button
-          mat-menu-item
-          color="primary"
-          (click)="changeLanguage(language)"
-        >
-          {{ language }}
-        </button>
-      }
-    </mat-menu>
   }
+
+  <mat-menu #menuLanguage="matMenu">
+    @for (language of languages; track language) {
+      <button mat-menu-item color="primary" (click)="changeLanguage(language)">
+        {{ language }}
+      </button>
+    }
+  </mat-menu>
 </nav>
