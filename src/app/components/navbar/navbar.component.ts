@@ -4,6 +4,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { RouterLink } from '@angular/router';
 import { DeviceDetectorService } from '@shared/device-detector/device-detector.service';
+import { ScrollService } from '@shared/scroll/scroll.service';
 
 @Component({
   selector: 'app-navbar',
@@ -24,7 +25,10 @@ export class NavbarComponent implements OnInit {
 
   isMobile = false;
 
-  constructor(private deviceDetectorService: DeviceDetectorService) {}
+  constructor(
+    private deviceDetectorService: DeviceDetectorService,
+    private scrollService: ScrollService,
+  ) {}
 
   ngOnInit(): void {
     this.deviceDetectorService.isMobile$.subscribe((isMobile) => {
@@ -34,5 +38,9 @@ export class NavbarComponent implements OnInit {
 
   changeLanguage(language: string) {
     this.languageSystem = language;
+  }
+
+  onNavigateToFragment(fragment: string): void {
+    this.scrollService.navigateToFragment(fragment);
   }
 }

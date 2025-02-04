@@ -27,6 +27,7 @@
           color="primary"
           [routerLink]="''"
           [fragment]="item.fragment"
+          (click)="onNavigateToFragment(item.fragment)"
         >
           {{ item.label }}
         </button>
@@ -40,6 +41,7 @@
         class="nav-links"
         [routerLink]="''"
         [fragment]="item.fragment"
+        (click)="onNavigateToFragment(item.fragment)"
         >{{ item.label }}</a
       >
     }
