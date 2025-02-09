@@ -1,63 +1,62 @@
 <nav class="nav-links align-items-center justify-content-center">
-  @if (isMobile) {
-    <button
-      mat-button
-      color="primary"
-      [matMenuTriggerFor]="menuLanguage"
-      aria-label="Language Menu"
-      class="btn text- align-content-center justify-content-center"
-    >
-      <mat-icon>language</mat-icon>
-      {{ languageSystem() }}
-      <mat-icon iconPositionEnd>keyboard_arrow_down</mat-icon>
-    </button>
-    <button
-      mat-icon-button
-      color="primary"
-      [matMenuTriggerFor]="menu"
-      aria-label="Menu"
-      class="btn align-content-center justify-content-center"
-    >
-      <mat-icon>drag_handle</mat-icon>
-    </button>
-    <mat-menu #menu="matMenu">
-      @for (item of items; track item.label) {
-        <button
-          mat-menu-item
-          color="primary"
-          [routerLink]="''"
-          [fragment]="item.fragment"
-          (click)="onNavigateToFragment(item.fragment)"
-        >
-          {{ item.label }}
-        </button>
-      }
-    </mat-menu>
-  } @else {
+  <button
+    mat-button
+    color="primary"
+    [matMenuTriggerFor]="menuLanguage"
+    aria-label="Language Menu"
+    class="btn text- align-content-center justify-content-center d-md-none"
+    style="min-width: 100px"
+  >
+    <mat-icon>language</mat-icon>
+    {{ languageSystem() }}
+    <mat-icon iconPositionEnd>keyboard_arrow_down</mat-icon>
+  </button>
+  <button
+    mat-icon-button
+    color="primary"
+    [matMenuTriggerFor]="menu"
+    aria-label="Menu"
+    class="btn align-content-center justify-content-center d-md-none"
+  >
+    <mat-icon>drag_handle</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
     @for (item of items; track item.label) {
-      <a
-        mat-button
+      <button
+        mat-menu-item
         color="primary"
-        class="nav-links"
         [routerLink]="''"
         [fragment]="item.fragment"
         (click)="onNavigateToFragment(item.fragment)"
-        >{{ item.label }}</a
       >
+        {{ item.label }}
+      </button>
     }
-
-    <button
+  </mat-menu>
+  @for (item of items; track item.label) {
+    <a
       mat-button
       color="primary"
-      [matMenuTriggerFor]="menuLanguage"
-      aria-label="Language Menu"
-      class="text-uppercase"
+      class="nav-links d-none d-md-inline"
+      [routerLink]="''"
+      [fragment]="item.fragment"
+      (click)="onNavigateToFragment(item.fragment)"
+      >{{ item.label }}</a
     >
-      <mat-icon>language</mat-icon>
-      {{ languageSystem() }}
-      <mat-icon iconPositionEnd>keyboard_arrow_down</mat-icon>
-    </button>
   }
+
+  <button
+    mat-button
+    color="primary"
+    [matMenuTriggerFor]="menuLanguage"
+    aria-label="Language Menu"
+    class="text-uppercase d-none d-md-inline"
+    style="min-width: 100px"
+  >
+    <mat-icon iconPositionStart>language</mat-icon>
+    {{ languageSystem() }}
+    <mat-icon iconPositionEnd>keyboard_arrow_down</mat-icon>
+  </button>
 
   <mat-menu #menuLanguage="matMenu">
     @for (language of languages; track language) {

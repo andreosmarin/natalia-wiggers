@@ -1,10 +1,9 @@
 import { isPlatformBrowser, NgOptimizedImage } from '@angular/common';
-import { Component, Inject, OnInit, PLATFORM_ID, signal } from '@angular/core';
+import { Component, Inject, PLATFORM_ID, signal } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { RouterLink } from '@angular/router';
-import { DeviceDetectorService } from '@shared/device-detector/device-detector.service';
 import { ScrollService } from '@shared/scroll/scroll.service';
 import { Language } from '@shared/system/language.interface';
 import { Languages } from '@shared/system/languages';
@@ -21,7 +20,7 @@ import { Languages } from '@shared/system/languages';
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent {
   items = [
     { label: 'About Me', link: '', fragment: 'about' },
     { label: 'Services', link: '', fragment: 'services' },
@@ -30,12 +29,9 @@ export class NavbarComponent implements OnInit {
   ];
 
   languages = Languages;
-  languageSystem = signal<string | null>(null);
-
-  isMobile = false;
+  languageSystem = signal<string>('');
 
   constructor(
-    private deviceDetectorService: DeviceDetectorService,
     private scrollService: ScrollService,
     @Inject(PLATFORM_ID) private plataformId: object,
   ) {
@@ -46,12 +42,6 @@ export class NavbarComponent implements OnInit {
         localStorage.getItem('languageSystem') || validLang?.label || 'EN',
       );
     }
-  }
-
-  ngOnInit(): void {
-    this.deviceDetectorService.isMobile$.subscribe((isMobile) => {
-      this.isMobile = isMobile;
-    });
   }
 
   changeLanguage(language: Language) {
