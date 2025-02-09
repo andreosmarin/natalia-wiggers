@@ -39,7 +39,7 @@ export class NavbarComponent {
       const langFromPath = window.location.pathname.split('/')[1];
       const validLang = this.languages.find((lang) => lang.id === langFromPath);
       this.languageSystem.set(
-        localStorage.getItem('languageSystem') || validLang?.label || 'EN',
+        validLang?.label || localStorage.getItem('languageSystem') || 'EN',
       );
     }
   }
