@@ -31,13 +31,13 @@ export class ServicesSectionComponent {
     },
     {
       title: $localize`Outfit Assembly`,
-      description: $localize`Create authentic and versatile outfit combinations that reflect your personality and style!`,
+      description: $localize`Maximize your clothing and create versatile, stylish looks with the pieces you already have in your wardrobe!`,
       image: 'service-outfit-assembly.png',
       active: false,
     },
     {
       title: $localize`Smart Suitcase`,
-      description: $localize`Pack smart and travel light! Learn to choose key pieces, create stylish outfits, and stay organized with ease.`,
+      description: $localize`Pack smart and travel light! Learn to choose key pieces, create looks, and stay organized with ease.`,
       image: 'service-smart-suitcase.jpg',
       active: false,
     },
