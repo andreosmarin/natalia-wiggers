@@ -22,10 +22,10 @@ import { Languages } from '@shared/system/languages';
 })
 export class NavbarComponent {
   items = [
-    { label: 'About Me', link: '', fragment: 'about' },
-    { label: 'Services', link: '', fragment: 'services' },
-    { label: 'Testimonials', link: '', fragment: 'testimonials' },
-    { label: 'Contact', link: '', fragment: 'contact' },
+    { label: $localize`About Me`, link: '', fragment: 'about' },
+    { label: $localize`Services`, link: '', fragment: 'services' },
+    { label: $localize`Testimonials`, link: '', fragment: 'testimonials' },
+    { label: $localize`Contact`, link: '', fragment: 'contact' },
   ];
 
   languages = Languages;

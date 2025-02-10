@@ -4,83 +4,381 @@
     <body>
       <trans-unit id="2480007721916026133" datatype="html">
         <source>Natália Wiggers | Image &amp; Style Consulting</source>
-        <target>Natália Wiggers | Consultoría de Imagen y Estilo</target>
+        <target>Natália Wiggers | Consultora de Imagen &amp; Estilo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8657239370366638798" datatype="html">
+        <source>Graduated in Fashion Design and specialized in Image &amp; Style Consulting, I help women connect with their essence and express a unique style.</source>
+        <target>Formada en Diseño de Moda y especializada en Consultoría de Imagen &amp; Estilo, ayudo a las mujeres a conectarse con su esencia y expresar un estilo único.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="3562199946446423606" datatype="html">
         <source>About me</source>
         <target>Sobre mí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5056042089208991876" datatype="html">
         <source>Image by Natália Wiggers, image and style consultant</source>
         <target>Imagen de Natália Wiggers, consultora de imagen y estilo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5573521891741907372" datatype="html">
         <source>Hi</source>
         <target>Hola</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="3467568788912517643" datatype="html">
-        <source> I am an image and style consultant, trained in Fashion Design, and my passion is helping people connect with their essence and translate it into an authentic style. I believe that each person is unique and that the way they dress can be a powerful tool to express who they truly are. </source>
-        <target>Soy consultora de imagen y estilo, formada en Diseño de Moda, y mi pasión es ayudar a las personas a conectar con su esencia y traducirla en un estilo auténtico. Creo que cada persona es única y que la forma en que se viste puede ser una herramienta poderosa para expresar quién realmente es.</target>
+      <trans-unit id="5086021530239634191" datatype="html">
+        <source> I am a Fashion Designer and specialist in helping women connect with their essence and translate it into an authentic style, communicating with the world through their image. Through Image and Style Consulting and Personal Color Analysis, I help people express themselves uniquely, blending style, essence, and harmony! </source>
+        <target> Sou diseñadora de Moda y especialista en ayudar a las mujeres a conectarse con su esencia y traducirla en un estilo auténtico, comunicándose con el mundo a través de su imagen. A través de la Consultoría de Imagen y Estilo y el Análisis de Color Personal, ayudo a las personas a expresarse de manera única, uniendo estilo, esencia y armonía! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
+          <context context-type="linenumber">20,24</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="3951935191950605405" datatype="html">
         <source>My mission</source>
         <target>Mi misión</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="2814233268272791199" datatype="html">
-        <source> My mission is to promote your self-esteem and well-being by valuing your body, personality, and story. I want to help you look at yourself in the mirror with pride and feel confident to face the world. My goal is to reveal your worth and create a style that reflects your best version, in a light and authentic way. Together, we will build an image that tells your story and makes you feel amazing at any moment in your life. </source>
-        <target>Mi misión es promover tu autoestima y bienestar valorando tu cuerpo, personalidad e historia. Quiero ayudarte a mirarte al espejo con orgullo y sentirte seguro para enfrentar el mundo. Mi objetivo es revelar tu valor y crear un estilo que refleje tu mejor versión, de una manera ligera y auténtica. Juntos, construiremos una imagen que cuente tu historia y te haga sentir increíble en cualquier momento de tu vida.</target>
+      <trans-unit id="9135695771771070780" datatype="html">
+        <source> My mission is to promote your self-esteem and well-being, highlighting what you can communicate through your image. </source>
+        <target> Mi misión es promover tu autoestima y bienestar, destacando lo que puedes comunicar a través de tu imagen. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3259950733415399838" datatype="html">
+        <source> My goal is that, when you look in the mirror, you feel confident to face the world and express your personality. Together, we will build an image that tells your story and makes you feel ready for any moment in your life. </source>
+        <target> Mi objetivo es que, al mirarte al espejo, te sientas segura para enfrentar el mundo y transmitir tu personalidad. Juntas, vamos construir una imagen que cuente tu historia y te haga sentir preparada en cualquier momento de tu vida. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
+          <context context-type="linenumber">33,35</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="1805506778275601584" datatype="html">
         <source>Values</source>
         <target>Valores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="2057666884781843333" datatype="html">
         <source> Ethics, respect, authenticity, trust, empathy, valuing individuality, and commitment to transformation. </source>
-        <target>Ética, respeto, autenticidad, confianza, empatía, valoración de la individualidad y compromiso con la transformación.</target>
+        <target> Ética, respeto, autenticidad, confianza, empatía, valorización de la individualidad y compromiso con la transformación. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="3900425463855019410" datatype="html">
         <source>Logo of Natália Wiggers Image and Style Consulting</source>
-        <target>Logo de Natália Wiggers Consultoría de Imagen y Estilo</target>
+        <target>Logo de Natália Wiggers Consultora de Imagen y Estilo.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="6018686961415145811" datatype="html">
         <source>About Me</source>
         <target>Sobre Mí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="7143579180750436311" datatype="html">
         <source>Services</source>
         <target>Servicios</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5669462994581337154" datatype="html">
         <source>Contact Me</source>
-        <target>Contáctame</target>
+        <target>Póngase en contacto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5929565432656080828" datatype="html">
         <source>Telephone: </source>
         <target>Teléfono: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="4071222469431073252" datatype="html">
         <source>Location: </source>
         <target>Ubicación: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676611977180832191" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-c-circle text-secondary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Copyright - Developed with <x id="START_ITALIC_TEXT_1" equiv-text="&lt;i class=&quot;bi bi-heart text-secondary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+      href=&quot;https://www.linkedin.com/in/andreosmarin&quot;
+      class=&quot;text-secondary&quot;
+      target=&quot;_blank&quot;
+      &gt;"/>André Osmarin<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a
+    &gt;"/></source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-c-circle text-secondary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Copyright - Desarrollado con <x id="START_ITALIC_TEXT_1" equiv-text="&lt;i class=&quot;bi bi-heart text-secondary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> por <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+      href=&quot;https://www.linkedin.com/in/andreosmarin&quot;
+      class=&quot;text-secondary&quot;
+      target=&quot;_blank&quot;
+      &gt;"/>André Osmarin<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a
+    &gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">3,12</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="3735025552830334649" datatype="html">
         <source>Natalia Wiggers Logo</source>
         <target>Logo de Natalia Wiggers</target>
-      </trans-unit>
-      <trans-unit id="2455187771464915745" datatype="html">
-        <source>Natália Wiggers</source>
-        <target>Natália Wiggers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="2123642644024850899" datatype="html">
         <source> Image &amp; Style Consulting </source>
-        <target> Consultoría de Imagen y Estilo </target>
+        <target> Consultora de Imagem &amp; Estilo </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="8464417311892003856" datatype="html">
         <source> Dress your essence, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> because style is being you. </source>
-        <target> Viste tu esencia, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> porque el estilo es ser tú. </target>
+        <target> Vístete con tu esencia, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> porque el estilo es ser tú misma. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
+          <context context-type="linenumber">27,29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
+          <context context-type="linenumber">57,59</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5827334791896421756" datatype="html">
         <source> My services </source>
         <target> Mis servicios </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7387549428686165032" datatype="html">
+        <source>Natália Logo</source>
+        <target>Logo de Natália Wiggers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7100508900545127127" datatype="html">
+        <source>Testimonials</source>
+        <target>Testimonios</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <target>Contacto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3288310961504334972" datatype="html">
+        <source>Personal Coloring</source>
+        <target>Coloración personal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3217610980915996172" datatype="html">
+        <source>Discover the colors that best harmonize with your features. Colors can say a lot about you!</source>
+        <target>Descubre los colores que mejor armonizan con tus características. ¡Los colores pueden decir mucho sobre ti!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6343775526365217700" datatype="html">
+        <source>Closet Detox</source>
+        <target>Desintoxicación de Armario</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4861910124244322063" datatype="html">
+        <source>Make dressing easier by strategically removing pieces from your wardrobe that go against your desired image.</source>
+        <target>Facilita tu vestimenta eliminando estratégicamente del armario las prendas que no van acorde con la imagen que deseas proyectar.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8648902947256732698" datatype="html">
+        <source>Personal Shopper</source>
+        <target>Comprador Personal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3129562529827469693" datatype="html">
+        <source>Enjoy a personalized shopping experience with choices that reflect your style, needs, and goals.</source>
+        <target>Disfruta de una experiencia de compras personalizada con opciones que reflejan tu estilo, necesidades y objetivos.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7023265798662086714" datatype="html">
+        <source>Outfit Assembly</source>
+        <target>Montaje de Looks</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3308508345457254874" datatype="html">
+        <source>Maximize your clothing and create versatile, stylish looks with the pieces you already have in your wardrobe!</source>
+        <target>¡Maximiza tu ropa y crea looks versátiles y estilosos con las piezas que ya tienes en tu armario!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8136907291456251409" datatype="html">
+        <source>Smart Suitcase</source>
+        <target>Maleta Inteligente</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9098244516241256377" datatype="html">
+        <source>Pack smart and travel light! Learn to choose key pieces, create looks, and stay organized with ease.</source>
+        <target>¡Haz la maleta de manera inteligente y viaja ligera! Aprende a elegir prendas clave, crear looks y mantenerte organizada con facilidad.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1354209968587236128" datatype="html">
+        <source> They and their new versions </source>
+        <target> Ellas y sus nuevas versiones </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/testimonials-section/testimonials-section.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="597132684197302963" datatype="html">
+        <source>I loved the service, I was surprised by how a color changes my image.</source>
+        <target>Me encantó el servicio, me sorprendió cómo un color puede cambiar mi imagen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/testimonials-section/testimonials-section.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2455945946450224095" datatype="html">
+        <source>Businesswoman</source>
+        <target>Empresaria</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/testimonials-section/testimonials-section.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8329085097219919971" datatype="html">
+        <source>Natália helped me reconnect with myself, I feel the difference at home and at work.</source>
+        <target>Natália me hizo reconectarme conmigo misma, y ahora siento la diferencia tanto en casa como en el trabajo.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/testimonials-section/testimonials-section.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7313158993455511520" datatype="html">
+        <source>Commercial Manager</source>
+        <target>Gerente Comercial</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/testimonials-section/testimonials-section.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5155699270440146246" datatype="html">
+        <source>I loved discovering my color palette. Now I know how to wear what flatters me.</source>
+        <target>Me encantó descubrir mi paleta de colores. ¡Ahora sé cómo usar lo que me favorece!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/testimonials-section/testimonials-section.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6459042858765959722" datatype="html">
+        <source>Autonomous</source>
+        <target>Autónoma</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/testimonials-section/testimonials-section.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>
