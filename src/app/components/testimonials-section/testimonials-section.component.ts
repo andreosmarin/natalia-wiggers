@@ -21,9 +21,9 @@ export class TestimonialsSectionComponent {
       occupation: $localize`Commercial Manager`,
     },
     {
-      name: 'Lígia',
-      description: $localize`As a professional, my image is important, and we managed to elevate my level to another level, I am fulfilled.`,
-      occupation: $localize`Executive`,
+      name: 'Raquel de Oliveira',
+      description: $localize`I loved discovering my color palette. Now I know how to wear what flatters me.`,
+      occupation: $localize`Autonomous`,
     },
   ];
 }
