@@ -54,9 +54,9 @@
           <context context-type="linenumber">20,24</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3951935191950605405" datatype="html">
-        <source>My mission</source>
-        <target>Minha missão</target>
+      <trans-unit id="805309424784169553" datatype="html">
+        <source>My Mission</source>
+        <target>Minha Missão</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/about-section/about-section.component.html</context>
           <context context-type="linenumber">27,28</context>
@@ -175,7 +175,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
-          <context context-type="linenumber">9,10</context>
+          <context context-type="linenumber">10,11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2123642644024850899" datatype="html">
@@ -183,11 +183,11 @@
         <target> Consultora de Imagem &amp; Estilo </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
-          <context context-type="linenumber">21,22</context>
+          <context context-type="linenumber">23,24</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
-          <context context-type="linenumber">51,52</context>
+          <context context-type="linenumber">53,54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8464417311892003856" datatype="html">
@@ -195,11 +195,11 @@
         <target> Vista sua essência, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> porque estilo é ser você. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
-          <context context-type="linenumber">27,29</context>
+          <context context-type="linenumber">29,31</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
-          <context context-type="linenumber">57,59</context>
+          <context context-type="linenumber">59,61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5827334791896421756" datatype="html">
@@ -207,11 +207,11 @@
         <target> Meus serviços </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
-          <context context-type="linenumber">42,43</context>
+          <context context-type="linenumber">44,45</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
-          <context context-type="linenumber">87</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7387549428686165032" datatype="html">
@@ -219,7 +219,7 @@
         <target>Logo de Natália Wiggers</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
-          <context context-type="linenumber">68,69</context>
+          <context context-type="linenumber">70,71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7100508900545127127" datatype="html">
