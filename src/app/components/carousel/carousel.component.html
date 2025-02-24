@@ -1,4 +1,9 @@
-<div id="carousel" class="carousel slide" data-bs-ride="carousel">
+<div
+  id="carousel"
+  class="carousel slide"
+  data-bs-ride="carousel"
+  data-bs-pause="hover"
+>
   <div class="carousel-indicators">
     @for (item of items(); track item.title; let idx = $index) {
       <button
@@ -25,7 +30,7 @@
           class="carousel-caption rounded"
           style="background-color: rgba(111, 41, 78, 0.85)"
         >
-          <h5 class="fw-bold text-secondary-light text-shadow">
+          <h5 class="fw-bold fs-2 text-secondary-light text-shadow">
             {{ item.title }}
           </h5>
           <p class="text-secondary-light text-shadow p-2">
