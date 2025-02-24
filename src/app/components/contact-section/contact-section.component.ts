@@ -1,11 +1,10 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
 import { ScrollService } from '@shared/scroll/scroll.service';
 
 @Component({
   selector: 'app-contact-section',
-  imports: [NgOptimizedImage, RouterLink],
+  imports: [NgOptimizedImage],
   templateUrl: './contact-section.component.html',
   styleUrl: './contact-section.component.scss',
 })
