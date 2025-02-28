@@ -39,7 +39,7 @@ export class AppComponent {
     });
     this.meta.addTag({
       name: 'og:image',
-      content: 'public/image-logo-natalia-wiggers.png',
+      content: 'public/favicon.ico',
     });
   }
 }
