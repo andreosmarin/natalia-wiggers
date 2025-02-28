@@ -94,48 +94,20 @@
           <context context-type="linenumber">41,42</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3900425463855019410" datatype="html">
-        <source>Logo of Natália Wiggers Image and Style Consulting</source>
-        <target>Logo de Natália Wiggers Consultora de Imagen y Estilo.</target>
+      <trans-unit id="1153721192129533394" datatype="html">
+        <source>Contact me</source>
+        <target>Ponte en contacto</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
-          <context context-type="linenumber">8,9</context>
+          <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6018686961415145811" datatype="html">
-        <source>About Me</source>
-        <target>Sobre Mí</target>
+      <trans-unit id="1092570482726920759" datatype="html">
+        <source>Contact Me - Natália Wiggers Image and Style Consulting</source>
+        <target>Contáctame - Natália Wiggers Consultoría de Imagen y Estilo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
-          <context context-type="linenumber">36,37</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7143579180750436311" datatype="html">
-        <source>Services</source>
-        <target>Servicios</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
-          <context context-type="linenumber">44,45</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/services-section/services-section.component.html</context>
-          <context context-type="linenumber">2,3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5669462994581337154" datatype="html">
-        <source>Contact Me</source>
-        <target>Póngase en contacto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
-          <context context-type="linenumber">51,52</context>
+          <context context-type="linenumber">11,12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5929565432656080828" datatype="html">
@@ -143,7 +115,15 @@
         <target>Teléfono: </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7022889194484821307" datatype="html">
+        <source>E-mail: </source>
+        <target>Correo Electrónico: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">47,48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4071222469431073252" datatype="html">
@@ -151,19 +131,27 @@
         <target>Ubicación: </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4185561616156627131" datatype="html">
+        <source>Location - Natália Wiggers Image and Style Consulting</source>
+        <target>Ubicación - Natália Wiggers Consultoría de Imagen y Estilo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">66,67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6676611977180832191" datatype="html">
-        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-c-circle text-secondary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Copyright - Developed with <x id="START_ITALIC_TEXT_1" equiv-text="&lt;i class=&quot;bi bi-heart text-secondary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-c-circle text-primary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Copyright - Developed with <x id="START_ITALIC_TEXT_1" equiv-text="&lt;i class=&quot;bi bi-heart text-primary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
       href=&quot;https://www.linkedin.com/in/andreosmarin&quot;
-      class=&quot;text-secondary&quot;
+      class=&quot;text-primary text-font&quot;
       target=&quot;_blank&quot;
       &gt;"/>André Osmarin<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a
     &gt;"/></source>
-        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-c-circle text-secondary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Copyright - Desarrollado con <x id="START_ITALIC_TEXT_1" equiv-text="&lt;i class=&quot;bi bi-heart text-secondary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> por <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-c-circle text-primary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Copyright - Desarrollado con <x id="START_ITALIC_TEXT_1" equiv-text="&lt;i class=&quot;bi bi-heart text-primary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> por <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
       href=&quot;https://www.linkedin.com/in/andreosmarin&quot;
-      class=&quot;text-secondary&quot;
+      class=&quot;text-primary text-font&quot;
       target=&quot;_blank&quot;
       &gt;"/>André Osmarin<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a
     &gt;"/></target>
@@ -208,9 +196,9 @@
           <context context-type="linenumber">59,61</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5827334791896421756" datatype="html">
-        <source> My services </source>
-        <target> Mis servicios </target>
+      <trans-unit id="3260075693421550153" datatype="html">
+        <source> Contact me </source>
+        <target> Ponte en contacto </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
           <context context-type="linenumber">44,45</context>
@@ -226,6 +214,26 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/home-section/home-section.component.html</context>
           <context context-type="linenumber">70,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6018686961415145811" datatype="html">
+        <source>About Me</source>
+        <target>Acerca de Mí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7143579180750436311" datatype="html">
+        <source>Services</source>
+        <target>Servicios</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/services-section/services-section.component.html</context>
+          <context context-type="linenumber">2,3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7100508900545127127" datatype="html">
