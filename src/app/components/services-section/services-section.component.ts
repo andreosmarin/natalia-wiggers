@@ -14,13 +14,13 @@ export class ServicesSectionComponent {
     {
       title: $localize`Personal Coloring`,
       description: $localize`Discover the colors that best harmonize with your features. Colors can say a lot about you!`,
-      image: 'service-personal-coloring.jpg',
+      image: 'service-personal-coloring.jpeg',
       active: true,
     },
     {
       title: $localize`Closet Detox`,
       description: $localize`Make dressing easier by strategically removing pieces from your wardrobe that go against your desired image.`,
-      image: 'service-closet-detox.jpg',
+      image: 'service-closet-detox.png',
       active: false,
     },
     {
@@ -32,7 +32,7 @@ export class ServicesSectionComponent {
     {
       title: $localize`Outfit Assembly`,
       description: $localize`Maximize your clothing and create versatile, stylish looks with the pieces you already have in your wardrobe!`,
-      image: 'service-outfit-assembly.png',
+      image: 'service-outfit-assembly.jpg',
       active: false,
     },
     {
