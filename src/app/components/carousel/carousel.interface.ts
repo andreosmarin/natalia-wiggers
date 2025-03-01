@@ -3,4 +3,6 @@ export interface CarouselItem {
   description: string;
   image: string;
   active: boolean;
+  height: number;
+  width: number;
 }
