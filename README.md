@@ -1,16 +1,63 @@
-# NataliaWiggers
+# Natalia Wiggers - Image & Style Consultant
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+This project was developed to showcase the services and essence of **Natália Wiggers**, Image & Style Consultant, providing a modern and elegant digital experience.
 
-## Development server
+## Technologies Used
 
-To start a local development server, run:
+- **Angular 19** (Front-end framework)
+- **TypeScript** (Main language)
+- **SCSS** (Advanced styling)
+- **Bootstrap** (Responsive layout)
+- **Angular Material** (Visual components)
+- **Angular i18n** (Internationalization for English, Spanish, and Portuguese)
 
-```bash
-ng serve
-```
+## About the Project
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+The platform was created to facilitate access to the services offered by the consultant, highlighting the following sections:
+
+### Sections
+
+- **About Me**: Introduction of Natália Wiggers and her mission.
+- **Services**: Detailed description of the services offered such as **Image & Style Consulting**, **Personal Color Analysis**, and **Personal Shopper**.
+- **Testimonials**: Experiences shared by clients who underwent transformation.
+- **Contact**: Information for scheduling and inquiries.
+
+## Installation
+
+To run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/andreosmarin/natalia-wiggers.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd natalia-wiggers
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the project:
+   ```bash
+   ng serve
+   ```
+5. Access in the browser:
+   ```
+   http://localhost:4200
+   ```
+
+## Deploy
+
+This project was deployed on **AWS** and is available at: [nataliawiggers.com](https://nataliawiggers.com).
+
+## Internationalization
+
+The project supports multiple languages using **Angular i18n**, enabling navigation in:
+
+- Portuguese
+- English
+- Spanish
 
 ## Code scaffolding
 
@@ -43,16 +90,6 @@ To execute unit tests with the [Karma](https://karma-runner.github.io) test runn
 ```bash
 ng test
 ```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
 ## Additional Resources
 
